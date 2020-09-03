@@ -1,0 +1,7 @@
+version: "3.0"
+services:
+  jupyterhub:
+    ports:
+      -  "8001:8000"
+    build:
+      context: .
